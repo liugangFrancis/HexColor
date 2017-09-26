@@ -62,13 +62,14 @@ Pod::Spec.new do |s|
    s.authors            = { "Chinanet" => "614684441@qq.com" }
    s.social_media_url   = "http://twitter.com/Chinanet"
   s.framework = 'UIKit'
+ s.source = {: git=> 'https://github.com/liugangSwift/HexColor.git', :tag:"1.0"}
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If this Pod runs only on iOS or OS X, then specify the platform and
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+   s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
